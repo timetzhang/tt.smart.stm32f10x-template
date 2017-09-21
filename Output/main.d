@@ -2,7 +2,7 @@
 .\output\main.o: User\public.h
 .\output\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\output\main.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\output\main.o: C:\Keil5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\main.o: C:\Program Files\Keil5\ARM\ARMCC\bin\..\include\stdint.h
 .\output\main.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\output\main.o: .\User\stm32f10x_conf.h
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
