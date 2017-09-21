@@ -1,4 +1,4 @@
 #ifndef _led_H
 #define _led_H
-void LED_Init(void);
+void LED_Config(void);
 #endif

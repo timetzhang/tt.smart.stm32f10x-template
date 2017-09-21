@@ -4,7 +4,7 @@
 int main()
 {
 	u8 i;
-	LED_Init();
+	LED_Config();
 	while(1)
 	{
 		for(i=0; i<8; i++){

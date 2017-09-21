@@ -1,7 +1,7 @@
 #include "led.h"
 #include "stm32f10x.h"
 
-void LED_Init(){
+void LED_Config(){
 	GPIO_InitTypeDef GPIO_InitStructure;
 	SystemInit();
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC,ENABLE);

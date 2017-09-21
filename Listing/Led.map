@@ -6,7 +6,7 @@ Tool: armlink [5040049]
 
 Section Cross References
 
-    main.o(.text) refers to led.o(.text) for LED_Init
+    main.o(.text) refers to led.o(.text) for LED_Config
     main.o(.text) refers to stm32f10x_gpio.o(.text) for GPIO_Write
     main.o(.text) refers to public.o(.text) for delay_ms
     led.o(.text) refers to system_stm32f10x.o(.text) for SystemInit
@@ -365,7 +365,7 @@ Image Symbol Table
     SysTick_Handler                          0x08000211   Thumb Code     2  stm32f10x_it.o(.text)
     delay_us                                 0x08000213   Thumb Code    54  public.o(.text)
     delay_ms                                 0x08000249   Thumb Code    56  public.o(.text)
-    LED_Init                                 0x08000281   Thumb Code    44  led.o(.text)
+    LED_Config                               0x08000281   Thumb Code    44  led.o(.text)
     SystemInit                               0x0800038f   Thumb Code    78  system_stm32f10x.o(.text)
     SystemCoreClockUpdate                    0x080003dd   Thumb Code   142  system_stm32f10x.o(.text)
     Reset_Handler                            0x08000491   Thumb Code     8  startup_stm32f10x_hd.o(.text)
@@ -597,7 +597,7 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
          0          0          0          0          0         32   core_cm3.o
-        48          4          0          0          0        435   led.o
+        48          4          0          0          0        441   led.o
         44          4          0          0          0     225139   main.o
        110          0          0          0          0        628   public.o
         64         26        304          0       1536        876   startup_stm32f10x_hd.o
@@ -607,7 +607,7 @@ Image component sizes
        480         38          0         20          0       1943   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      2564        146        336         40       1536     244756   Object Totals
+      2564        146        336         40       1536     244762   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          0          0          0          0          0          0   (incl. Padding)
 
@@ -656,8 +656,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      2836        162        336         40       1632     244808   Grand Totals
-      2836        162        336         40       1632     244808   ELF Image Totals
+      2836        162        336         40       1632     244814   Grand Totals
+      2836        162        336         40       1632     244814   ELF Image Totals
       2836        162        336         40          0          0   ROM Totals
 
 ==============================================================================
