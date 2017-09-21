@@ -29,4 +29,4 @@
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\output\main.o: .\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
-.\output\main.o: .\User_Lib\led.h
+.\output\main.o: User\led.h

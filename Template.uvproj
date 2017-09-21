@@ -408,11 +408,6 @@
           <GroupName>USER</GroupName>
           <Files>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\User_Lib\led.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\main.c</FilePath>
@@ -426,6 +421,11 @@
               <FileName>public.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\User\public.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\led.c</FilePath>
             </File>
           </Files>
         </Group>

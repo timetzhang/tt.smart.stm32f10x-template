@@ -1,5 +1,5 @@
-.\output\led.o: User_Lib\led.c
-.\output\led.o: User_Lib\led.h
+.\output\led.o: User\led.c
+.\output\led.o: User\led.h
 .\output\led.o: .\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\output\led.o: .\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
 .\output\led.o: C:\Program Files\Keil5\ARM\ARMCC\bin\..\include\stdint.h
